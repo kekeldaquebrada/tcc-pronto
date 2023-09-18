@@ -1,0 +1,309 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #3ea66b;
+    color: #000000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 130%;
+line-height: 1.5em;
+
+
+
+}
+
+h2{
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+
+
+
+.loggo{
+   
+    border-radius: 50%;
+    border: 5px solid rgb(26, 177, 51);
+    width: 5%; /* Define a largura como metade do tamanho original */
+ 
+
+    display: flex; /* Exibir elementos em linha (horizontalmente) */
+    align-items: center; 
+
+
+    max-height: 80px; /* Altura máxima da logo, ajuste conforme necessário */
+    width: auto;
+
+
+
+    margin-left: 5%;
+   
+}
+
+
+h6 {
+color: rgb(26, 177, 51);
+font-size: 45px;
+margin: 0; /* Remova a margem padrão do h1 */
+padding: 10px; /* Adicione preenchimento interno para espaçamento */
+
+    }
+
+
+
+.ka{
+background-color: #fffbe0;
+height: 2cm;
+overflow: hidden;
+
+
+   
+}
+
+h5{
+    color: rgb(26, 177, 51);
+    font-size: 20px;
+    margin: 0; /* Remova a margem padrão do h1 */
+    padding: 10px; /* Adicione preenchimento interno para espaçamento */
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+    .lista {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .lista li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+    }
+    
+    .lista img {
+        max-width: 100px; /* Largura máxima da imagem (ajuste conforme necessário) */
+        margin-right: 20px; /* Espaçamento entre a imagem e o título (ajuste conforme necessário) */
+    }
+    
+    .lista h1 {
+        font-size: 24px; /* Tamanho do título (ajuste conforme necessário) */
+        margin: 0; /* Remova a margem padrão do h1 */
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    background-color: #3ea66b;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow-y: scroll; /* Habilita a rolagem vertical apenas no conteúdo central */
+    height: 100vh; /* Define a altura máxima para ocupar toda a altura da janela do navegador */
+    
+
+}
+
+
+header {
+    background-color: gold;
+    padding: 20px;
+
+
+
+
+    background-color: #fffbe0; /* Cor de fundo do cabeçalho, ajuste conforme necessário */
+    height: 100px; /* Altura do cabeçalho, ajuste conforme necessário */
+    display: flex;
+    
+    align-items: center;
+
+
+
+
+}
+
+
+footer{
+    background-color: #fffbe0; /* Cor de fundo do cabeçalho, ajuste conforme necessário */
+    padding: 20px;
+ 
+    
+    height: 50px;
+    display: flex;
+
+    align-items: center;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+   
+}
+
+aside{
+    position: absolute;
+    left: 0;
+    top: 80%;
+    transform: translateY(-50%);
+    width: 300px; /* Largura do aside (ajuste conforme necessário) */
+    background-color: #f0f0f0; /* Cor de fundo opcional */
+    padding: 10px; /* Adicione margem interna conforme necessário */
+}
+
+img{
+
+    width: 30%; /* Define a largura como metade do tamanho original */
+    height: auto; /* Mantém a proporção da imagem */
+ 
+ 
+   flex-direction: row-reverse;
+
+text-decoration: none;
+text-align: right;
+flex: 1;
+   
+
+margin-left: 70%;
+
+}
+
+.a{
+    text-decoration: none; /* Remove o sublinhado */
+    outline: none; /* Remove a borda azul de foco */
+}
+
+
+
+.loggo-img{
+
+    border-radius: 50%;
+    border: 5px solid rgb(26, 177, 51);
+
+    margin-left: 5%;
+
+height: 1cm;
+ 
+  
+    
+ 
+}
+
+
+
+
+.botao {
+    top: 30px; /* Distância em relação ao topo */
+        right: 10px; /* Distância em relação à direita */
+           position: absolute;
+               flex-direction: row-reverse;
+                   background-color: #3ea66b;
+                       color: #fff;
+                           padding: 10px 20px;
+                               text-decoration: none;
+                                   border-radius: 4px;
+                                   }
+
+                                   .botao:hover {
+                                       background-color: #3ea66b; /* Cor de fundo quando o botão é hover */
+                                       }
+
+                                       
+                                       
+.titulo{
+
+background-color: gold;
+
+
+display: flex;
+justify-content: center; /* Centraliza horizontalmente */
+align-items: center; /* Centraliza verticalmente */
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.content {
+    display: flex;
+    justify-content: space-between; /* Coloca os elementos em lados opostos do contêiner */
+    align-items: center; /* Alinha verticalmente no centro */
+    padding: 20px; /* Adiciona algum espaço entre os elementos e a borda da página */
+}
+
+.text {
+    flex: 1; /* Ocupa o espaço restante no contêiner */
+    padding-right: 20px; /* Adiciona espaço à direita do texto */
+    
+}
+
+.text h1 {
+    font-size: 24px;
+    margin: 0;
+
+    display: flex;
+    justify-items: center;
+}
+
+.image img {
+    max-width: 100%; /* Garante que a imagem não seja maior do que o contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
