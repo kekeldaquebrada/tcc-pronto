@@ -1,9 +1,9 @@
 <?php
 
 $servername = "localhost";
-$username = "fazendavertical";
-$password = "fazenda123";
-$dbname = "fazendavertical";
+$username = "id21283713_greenworld";
+$password = "_Greenworld123";
+$dbname = "id21283713_fazendas";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
